@@ -210,3 +210,178 @@
     line-height: normal;
     white-space: nowrap;
   }
+
+  .overlap-2 {
+    position: absolute;
+    width: 180px;
+    height: 181px;
+    top: 1040px;
+    left: 75px;
+    border-radius: 34.62px;
+    background: linear-gradient(
+      180deg,
+      rgb(255, 255, 255) 0%,
+      rgb(213, 216, 206) 100%
+    );
+  }
+  
+.breakfasts {
+    position: absolute;
+    top: 143px;
+    left: 53px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+.emojis {
+    position: absolute;
+    top: 22px;
+    left: 30px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 85px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+.overlap-3 {
+    position: absolute;
+    width: 180px;
+    height: 181px;
+    top: 1040px;
+    left: 297px;
+    border-radius: 34.62px;
+    background: linear-gradient(
+      180deg,
+      rgb(255, 255, 255) 0%,
+      rgb(209, 222, 203) 100%
+    );
+  }
+  
+.vegan {
+    position: absolute;
+    top: 143px;
+    left: 65px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+.overlap-4 {
+    position: absolute;
+    width: 180px;
+    height: 181px;
+    top: 1040px;
+    left: 519px;
+    border-radius: 34.62px;
+    background: linear-gradient(
+      180deg,
+      rgb(255, 255, 255) 0%,
+      rgb(229, 203, 198) 100%
+    );
+  }
+  
+.meat {
+    position: absolute;
+    top: 143px;
+    left: 70px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+.overlap-5 {
+    position: absolute;
+    width: 180px;
+    height: 181px;
+    top: 1040px;
+    left: 741px;
+    border-radius: 34.62px;
+    background: linear-gradient(
+      180deg,
+      rgb(255, 255, 255) 0%,
+      rgb(236, 221, 195) 100%
+    );
+  }
+  
+.dessert {
+    position: absolute;
+    top: 143px;
+    left: 59px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+.overlap-6 {
+    position: absolute;
+    width: 180px;
+    height: 181px;
+    top: 1040px;
+    left: 963px;
+    border-radius: 34.62px;
+    background: linear-gradient(
+      180deg,
+      rgb(255, 255, 255) 0%,
+      rgb(231, 226, 217) 100%
+    );
+  }
+  
+.lunch {
+    position: absolute;
+    top: 143px;
+    left: 66px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+    
+.overlap-7 {
+    position: absolute;
+    width: 180px;
+    height: 181px;
+    top: 1040px;
+    left: 1185px;
+    border-radius: 34.62px;
+    background: linear-gradient(
+      180deg,
+      rgb(255, 255, 255) 0%,
+      rgb(230, 213, 200) 100%
+    );
+  }
+  
+.chocolate {
+    position: absolute;
+    top: 143px;
+    left: 50px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
