@@ -175,3 +175,38 @@
     letter-spacing: 0;
     line-height: normal;
   }
+
+  .categories {
+    position: absolute;
+    top: 903px;
+    left: 73px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 55px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+.overlap-group {
+    position: absolute;
+    width: 222px;
+    height: 43px;
+    top: 916px;
+    left: 1145px;
+    background-color: #e4f8ff;
+    border-radius: 15px;
+  }
+  
+.viewall {
+    position: absolute;
+    top: 13px;
+    left: 35px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
