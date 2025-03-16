@@ -76,3 +76,102 @@
     line-height: normal;
     white-space: nowrap;
   }
+
+  .overlap {
+    position: absolute;
+    width: 1292px;
+    height: 672px;
+    top: 163px;
+    left: 74px;
+  }
+  
+.saladimage {
+    position: absolute;
+    border-radius: 0px 46px 46px 0px;
+    width: 646px;
+    height: 672px;
+    top: 0;
+    left: 646px;
+    object-fit: cover;
+  }
+  
+.bluebox {
+    position: absolute;
+    width: 646px;
+    height: 672px;
+    top: 0;
+    left: 0;
+    background-color: #e4f8ff;
+    border-radius: 0px 46px 46px 0px;
+    transform: rotate(180deg);
+  }
+  
+.delicioushealthy {
+    position: absolute;
+    top: 213px;
+    left: 63px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+.blackbox {
+    position: absolute;
+    width: 154px;
+    height: 49px;
+    top: 479px;
+    left: 63px;
+    background-color: #000000;
+    border-radius: 14.29px;
+  }
+  
+.viewrecipes {
+    position: absolute;
+    top: 495px;
+    left: 98px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+.description {
+    position: absolute;
+    width: 462px;
+    top: 365px;
+    left: 63px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #636363;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+.whitebox {
+    position: absolute;
+    width: 133px;
+    height: 34px;
+    top: 131px;
+    left: 63px;
+    background-color: #ffffff;
+    border-radius: 50px;
+  }
+  
+.hotrecipes {
+    position: absolute;
+    top: 138px;
+    left: 76px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
