@@ -416,21 +416,21 @@
   
 .eggsandwich {
     position: absolute;
-    top: 80px;
+    top: 65px;
     left: 720px;
   }
   
 .p {
     position: absolute;
     width: 462px;
-    top: 200px;
+    top: 180px;
     left: 720px;
     color: #636363;
   }
   
 .resources {
     position: absolute;
-    top: 350px;
+    top: 330px;
     left: 710px;
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
@@ -442,7 +442,7 @@
   
 .steps {
     position: absolute;
-    top: 520px;
+    top: 500px;
     left: 710px;
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
@@ -454,12 +454,12 @@
   
 .ingredients {
     position: absolute;
-    top: 290px;
+    top: 270px;
     left: 720px;
   }
   
 .method {
     position: absolute;
-    top: 460px;
+    top: 440px;
     left: 720px;
   }
