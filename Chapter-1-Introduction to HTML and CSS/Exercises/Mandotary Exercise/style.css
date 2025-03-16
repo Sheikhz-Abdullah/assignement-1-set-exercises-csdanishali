@@ -385,3 +385,81 @@
     line-height: normal;
     white-space: nowrap;
   }
+
+  .overlap-group-2 {
+    position: absolute;
+    width: 1292px;
+    height: 672px;
+    top: 1325px;
+    left: 74px;
+  }
+  
+.pinkbox {
+    position: absolute;
+    width: 646px;
+    height: 672px;
+    top: 0;
+    left: 646px;
+    background-color: #ffe4e4;
+    border-radius: 0px 46px 46px 0px;
+  }
+  
+.img {
+    position: absolute;
+    width: 646px;
+    height: 672px;
+    top: 0;
+    left: 0;
+    border-radius: 46px 0px 0px 46px;
+    object-fit: cover;
+  }
+  
+.eggsandwich {
+    position: absolute;
+    top: 80px;
+    left: 720px;
+  }
+  
+.p {
+    position: absolute;
+    width: 462px;
+    top: 200px;
+    left: 720px;
+    color: #636363;
+  }
+  
+.resources {
+    position: absolute;
+    top: 350px;
+    left: 710px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #292929;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+.steps {
+    position: absolute;
+    top: 520px;
+    left: 710px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #292929;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+.ingredients {
+    position: absolute;
+    top: 290px;
+    left: 720px;
+  }
+  
+.method {
+    position: absolute;
+    top: 460px;
+    left: 720px;
+  }
