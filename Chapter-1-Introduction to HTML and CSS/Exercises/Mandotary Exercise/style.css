@@ -1,0 +1,78 @@
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+.div {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 2196px;
+    position: relative;
+  }
+  
+.bitescape {
+    position: absolute;
+    top: 51px;
+    left: 73px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+.home {
+    position: absolute;
+    top: 53px;
+    left: 490px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #0e0e13;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+.recipes {
+    position: absolute;
+    top: 53px;
+    left: 599px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #0e0e13;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+.contact {
+    position: absolute;
+    top: 53px;
+    left: 731px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #0e0e13;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+.aboutus {
+    position: absolute;
+    top: 53px;
+    left: 864px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #0e0e13;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
