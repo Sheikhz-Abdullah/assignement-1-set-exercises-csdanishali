@@ -113,3 +113,40 @@ h2 {
     background: rgba(255, 0, 0, 0.7);
     transform: scale(1.1);
 }
+/* Hidden description, revealed on hover */
+.character-list .description {
+    display: none;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.9);
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 200px;
+    text-align: center;
+}
+
+.character-list li:hover .description {
+    display: block;
+}
+
+/* Button */
+.button {
+    display: inline-block;
+    background-color: #e50914;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.button:hover {
+    background-color: #e9e9e9;
+    transform: scale(1.1);
+}
