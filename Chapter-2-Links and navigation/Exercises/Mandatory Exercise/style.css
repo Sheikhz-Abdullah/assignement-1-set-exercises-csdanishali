@@ -61,3 +61,15 @@ header p {
     font-size: 18px;
     opacity: 0.8;
 }
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #e50914;
+    font-size: 28px;
+    text-transform: uppercase;
+}
