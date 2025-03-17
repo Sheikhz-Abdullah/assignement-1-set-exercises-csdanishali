@@ -73,3 +73,43 @@ h2 {
     font-size: 28px;
     text-transform: uppercase;
 }
+
+/* Review Section */
+.review {
+    font-style: italic;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    width: 60%;
+    margin: 20px auto;
+    border-left: 5px solid #e50914;
+    transition: transform 0.3s;
+}
+
+.review:hover {
+    transform: scale(1.05);
+}
+
+/* Character Hover Effect */
+.character-list {
+    list-style: none;
+    padding: 0;
+}
+
+.character-list li {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.2s;
+    cursor: pointer;
+    width: 180px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.character-list li:hover {
+    background: rgba(255, 0, 0, 0.7);
+    transform: scale(1.1);
+}
