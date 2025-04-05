@@ -1,0 +1,8 @@
+/* Style for the entire body of the webpage */
+body {
+    font-family: 'Poppins', sans-serif;  /* Sets a modern sans-serif font */
+    text-align: center;                  /* Centers text horizontally */
+    background-color: #eaf4fc;         /* Light blue background */
+    margin: 0;                           /* Removes default margin */
+    padding: 0;                          /* Removes default padding */
+}
