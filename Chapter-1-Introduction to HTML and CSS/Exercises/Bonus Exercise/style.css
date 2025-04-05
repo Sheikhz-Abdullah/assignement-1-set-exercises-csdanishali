@@ -22,3 +22,109 @@ body {
     align-items: center; /* Center items vertically */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
+
+.logo {
+    font-size: 26px; /* Logo font size */
+    font-weight: 800; /* Bold font for emphasis */
+}
+
+.logo span {
+    color: #04AA6D; /* Highlight the "Curves" part of the logo */
+}
+
+.nav-links {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Flexbox layout for navigation links */
+    gap: 30px; /* Space between links */
+}
+
+.nav-links a {
+    color: #fff; /* White text for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: 500; /* Medium font weight for text */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.nav-links a:hover {
+    color: #04AA6D; /* Green color on hover */
+}
+
+/* Hero Section (Intro Banner) */
+.hero {
+    text-align: center; /* Center-align text */
+    padding: 100px 20px; /* Large padding for the hero section */
+    background: white; /* White background for hero */
+}
+
+.hero h1 {
+    font-size: 48px; /* Large font size for main heading */
+    margin-bottom: 15px; /* Space below the heading */
+    color: #1e1e2f; /* Dark color for the heading */
+}
+
+.hero p {
+    font-size: 20px; /* Medium font size for paragraph */
+    color: #555; /* Slightly lighter text color */
+    margin-bottom: 30px; /* Space below the paragraph */
+}
+
+.buttons {
+    display: flex; /* Flexbox for button alignment */
+    justify-content: center; /* Center buttons horizontally */
+    gap: 20px; /* Space between buttons */
+    flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+}
+
+.btn {
+    padding: 12px 30px; /* Padding for buttons */
+    border-radius: 8px; /* Rounded corners for buttons */
+    font-size: 16px; /* Medium font size for button text */
+    font-weight: 600; /* Semi-bold text for buttons */
+    text-decoration: none; /* Remove underline from buttons */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transformations */
+}
+
+.btn.primary {
+    background-color: #04AA6D; /* Green background for primary button */
+    color: #fff; /* White text color */
+}
+
+.btn.primary:hover {
+    background-color: #038e5a; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.btn.secondary {
+    border: 2px solid #04AA6D; /* Green border for secondary button */
+    background-color: transparent; /* Transparent background */
+    color: #04AA6D; /* Green text color */
+}
+
+.btn.secondary:hover {
+    background-color: #d7f5eb; /* Light green background on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Content Containers */
+.container {
+    padding: 60px 20px; /* Padding for content sections */
+    max-width: 1000px; /* Limit the width of content */
+    margin: auto; /* Center content horizontally */
+}
+
+pre {
+    background-color: #f4f4f4; /* Light gray background for code blocks */
+    padding: 20px; /* Padding inside code block */
+    border-left: 5px solid #04AA6D; /* Green border on the left */
+    font-family: 'Courier New', Courier, monospace; /* Monospaced font for code */
+    overflow-x: auto; /* Allow horizontal scrolling for long code lines */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 20px; /* Space above the code block */
+    font-size: 14px; /* Smaller font size for code */
+    box-shadow: 0 0 10px rgba(0,0,0,0.05); /* Soft shadow for visual appeal */
+}
+
+ul {
+    padding-left: 40px; /* Indentation for list items */
+    margin-top: 10px; /* Space above the list */
+}
