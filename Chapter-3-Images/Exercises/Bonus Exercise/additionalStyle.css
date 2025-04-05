@@ -1,0 +1,29 @@
+/* First div - Purple border and red box shadow */
+div:nth-of-type(1) {
+    border-color: #8A2AE3;
+    box-shadow: 15px 15px 15px red;
+}
+  
+/* Second div - Neon green border and inner shadow */
+div:nth-of-type(2) {
+    border-color: #00FF00;
+    box-shadow: inset 10px 10px 10px black;
+    color: black;
+}
+  
+/* Third div - Multiple layered borders using box-shadow */
+div:nth-of-type(3) {
+    border-radius: 25px;
+    box-shadow:
+      0 0 0 5px orange,
+      0 0 0 15px blue,
+      0 0 0 25px red,
+      0 0 0 35px green;
+    border-width: 0px;
+}
+  
+/* Fourth div - Text shadow to create depth and red border */
+div:nth-of-type(4) {
+    border-color: brown;
+    text-shadow: 2px 2px 3px black;
+}
