@@ -128,3 +128,13 @@ ul {
     padding-left: 40px; /* Indentation for list items */
     margin-top: 10px; /* Space above the list */
 }
+
+/* Footer */
+.footer {
+    text-align: center; /* Center-align footer text */
+    padding: 30px; /* Padding around footer content */
+    background-color: #1e1e2f; /* Dark background for footer */
+    color: #ccc; /* Light gray text for footer */
+    font-size: 14px; /* Smaller text size */
+    margin-top: 60px; /* Space above the footer */
+}
