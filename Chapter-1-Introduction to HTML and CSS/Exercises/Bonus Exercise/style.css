@@ -1,0 +1,24 @@
+/* Base Reset & Font */
+* {
+    margin: 0; /* Remove default margin from all elements */
+    padding: 0; /* Remove default padding from all elements */
+    box-sizing: border-box; /* Ensures padding and border don't affect element's width/height */
+}
+
+body {
+    font-family: 'Inter', sans-serif; /* Use the 'Inter' font for all text */
+    background: linear-gradient(to right, #f8f9fc, #e0f7fa); /* Light gradient background */
+    color: #2c3e50; /* Dark text color for readability */
+    line-height: 1.7; /* Set line height for better readability */
+}
+
+/* Navigation */
+.navbar {
+    background-color: #1e1e2f; /* Dark background color */
+    color: #fff; /* White text */
+    padding: 16px 40px; /* Padding for navbar items */
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between logo and nav items */
+    align-items: center; /* Center items vertically */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
