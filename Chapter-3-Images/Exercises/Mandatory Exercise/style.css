@@ -6,3 +6,23 @@ body {
     margin: 0;                           /* Removes default margin */
     padding: 0;                          /* Removes default padding */
 }
+
+/* Style for the main heading (h1) */
+h1 {
+    color: #2c3e50;                   /* Dark slate color for the text */
+    font-size: 36px;                    /* Larger font size */
+    margin-top: 60px;                   /* Space from the top of the page */
+    text-transform: uppercase;          /* Converts text to uppercase */
+    letter-spacing: 1px;                /* Adds space between letters */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Serif fallback stack */
+}
+
+/* Container for all image blocks */
+.gallery {
+    display: flex;                     /* Enables flexbox layout */
+    justify-content: center;           /* Centers items horizontally */
+    flex-wrap: wrap;                   /* Allows items to wrap to next line */
+    gap: 20px;                         /* Space between items */
+    padding: 20px;                     /* Inner spacing around the gallery */
+    margin-top: 140px;                 /* Space above the gallery */
+}
