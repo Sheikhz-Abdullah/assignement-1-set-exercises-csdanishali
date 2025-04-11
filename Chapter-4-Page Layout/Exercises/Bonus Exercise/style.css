@@ -117,3 +117,13 @@ nav a:hover {
     list-style-type: "✏️ ";  /* Emoji bullets */
     padding-left: 1.5rem;
 }
+
+/* Footer Styling */
+footer {
+    background: linear-gradient(90deg, #4e54c8, #8f94fb);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+  }
