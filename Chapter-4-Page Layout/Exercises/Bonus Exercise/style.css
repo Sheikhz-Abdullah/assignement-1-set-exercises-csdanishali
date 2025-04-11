@@ -44,4 +44,76 @@ nav a {
   
 nav a:hover {
     color: #ffe082;  /* Highlight on hover */
-}  
+}
+
+/* Main Container Flex Layout */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+}
+  
+/* Shared Box Styling */
+.box {
+    background: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    flex: 1 1 300px; /* responsive flex sizing */
+    max-width: 350px;
+}
+  
+/* Wireframe Image Styling */
+.wireframe img {
+    width: 100%;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+  
+/* Study Cards Styling */
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+  
+.card {
+    background: #f0f4ff;
+    padding: 1rem;
+    border-left: 5px solid #6c63ff;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    transition: transform 0.2s;
+}
+  
+.card:hover {
+    transform: translateX(5px);  /* Slide effect on hover */
+}
+  
+/* Button Styling */
+.btn {
+    background: #6c63ff;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 1rem;
+}
+  
+.btn:hover {
+    background: #5548d9;
+}
+  
+/* Notes List Styling */
+.notes ul {
+    margin-top: 1rem;
+    list-style-type: "✏️ ";  /* Emoji bullets */
+    padding-left: 1.5rem;
+}
