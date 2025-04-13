@@ -1,0 +1,38 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;   /* Main font for body text */
+    margin: 0;                        /* Remove default margins */
+    color: #000;                    /* Set default text color to black */
+    background-color: #fff;         /* White background */
+}
+  
+/* Header */
+header {
+    background-color: #17072b;
+    text-align: center;
+    padding: 20px;  /* Space around content */
+}
+  
+header h1 {
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    text-decoration: underline;
+    font-size: 40px;
+}
+  
+nav ul {
+    list-style: none;  /* Remove bullet points */
+    padding: 0;
+    margin-top: 15px;
+    display: flex;  /* Horizontal layout */
+    justify-content: center;  /* Center items */
+    gap: 40px;  /* Space between links */
+}
+  
+nav a {
+    text-decoration: none;  /* No underline */
+    color: #fff;
+    font-size: 30px;
+}
