@@ -36,3 +36,35 @@ nav a {
     color: #fff;
     font-size: 30px;
 }
+
+/* Main layout */
+main {
+    display: flex;  /* Side-by-side layout */
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;  /* Space between main sections */
+  }
+  
+  /* Welcome Section */
+  .welcome {
+    flex: 2;  /* Takes up more space than sidebar */
+  }
+  
+  .welcome h2 {
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: 1000;
+    font-family: tahoma, sans-serif;
+  }
+  
+  .welcome p {
+    font-size: 16px;
+    line-height: 1.5;   /* Better readability */
+    margin-bottom: 20px;
+  }
+  
+  .welcome img {
+    width: 100%;
+    max-width: 950px;
+    height: auto;
+  }
