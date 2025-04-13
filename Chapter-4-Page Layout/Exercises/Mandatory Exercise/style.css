@@ -107,3 +107,11 @@ main {
     height: 200px;
     object-fit: cover;  /* Keep square shape without stretching */
 }
+
+/* Footer */
+footer {
+    background-color: #8c15e9;   /* Purple background */
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+  }
