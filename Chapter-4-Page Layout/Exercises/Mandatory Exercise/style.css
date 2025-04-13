@@ -45,26 +45,65 @@ main {
     gap: 20px;  /* Space between main sections */
   }
   
-  /* Welcome Section */
-  .welcome {
+/* Welcome Section */
+.welcome {
     flex: 2;  /* Takes up more space than sidebar */
-  }
+}
   
-  .welcome h2 {
+.welcome h2 {
     font-size: 28px;
     text-decoration: underline;
     font-weight: 1000;
     font-family: tahoma, sans-serif;
-  }
+}
   
-  .welcome p {
+.welcome p {
     font-size: 16px;
     line-height: 1.5;   /* Better readability */
     margin-bottom: 20px;
-  }
+}
   
-  .welcome img {
+.welcome img {
     width: 100%;
     max-width: 950px;
     height: auto;
-  }
+}
+
+/* Lineup Section */
+.lineup {
+    flex: 1;   /* Takes up less space than welcome section */
+    background-color: #172d67;
+    color: #fff;
+    padding: 20px;
+    padding-left: 30px;
+}
+  
+.lineup h2 {
+    font-size: 30px;
+    text-decoration: underline;  /* Underline heading */
+    font-weight: bold;
+    font-family: tahoma, sans-serif;
+}
+  
+.lineup ul {
+    list-style: none;  /* Remove bullet points */
+    padding-left: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+  
+.lineup li {
+    margin-bottom: 10px;
+}
+  
+/* Side images */
+.images {
+    display: flex;
+    gap: 10px;  /* Space between images */
+}
+  
+.images img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;  /* Keep square shape without stretching */
+}
