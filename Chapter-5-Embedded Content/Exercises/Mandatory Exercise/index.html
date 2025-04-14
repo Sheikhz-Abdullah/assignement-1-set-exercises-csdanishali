@@ -11,23 +11,8 @@
    <!-- Wrapper div to center the video using Flexbox -->
   <div class="video-wrapper">
 
-    <!-- Embedded local video
-      - src: path to the local video file
-      - poster: image shown before the video plays
-      - loop: makes the video repeat infinitely
-      - autoplay: starts video automatically
-      - muted: required for autoplay to work in modern browsers
-      - controls: allows user to play/pause/adjust volume -->
-      <video 
-      src="nature.mp4"  
-      poster="cover.png" 
-      loop 
-      autoplay 
-      muted 
-      controls>
-       <!-- Fallback text for older browsers -->
-      Your browser does not support the video tag.
-    </video>
+    <!-- Embedded local video -->
+      <video loop poster="cover.png" src="nature.mp4" controls autoplay></video>
   </div>
 
 </body>
