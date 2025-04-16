@@ -24,6 +24,7 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 2rem;
+    padding-top: 60px;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -37,4 +38,29 @@ h1 {
     padding: 1rem;
     cursor: pointer;
     text-align: center;
+}
+
+/* Hover effect when mouse is over a sample */
+.boxes:hover {
+    background-color: #ff3366;
+    color: white;
+    border-color: white;
+}
+  
+/* Style for the number at the top of each button */
+.number {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Style for the sample name */
+.title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+/* Style for the duration text */
+.duration {
+    font-size: 0.9rem;
 }
