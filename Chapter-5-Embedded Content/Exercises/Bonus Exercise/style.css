@@ -1,10 +1,12 @@
+/* Basic page styles */
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     background: #012a36;
     color: white;
 }
-  
+
+/* Header styles */
 header {
     background-color: #ff3366;
     text-align: center;
@@ -15,7 +17,8 @@ h1 {
     margin: 0;
     font-size: 2.5rem;
 }
-  
+
+/* Grid layout for buttons */
 .boxes-layout {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -24,7 +27,8 @@ h1 {
     max-width: 1000px;
     margin: 0 auto;
 }
-  
+
+/* Button styles */
 .boxes {
     background-color: white;
     color: black;
